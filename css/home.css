@@ -1,0 +1,171 @@
+/*
+	GRID
+*/
+body {
+	background: #FFF url('../references/grid.jpg') repeat-y top left;
+}
+
+
+/*
+	BASIC GRID MARKUP
+*/
+div {
+	outline : black solid thin;
+}
+
+div {
+	margin : 18px 10px;
+}
+
+.one {
+	width : 52px;
+}
+.two {
+	width : 124px;
+}
+.three {
+	width : 196px;
+}
+.four {
+	width : 268px;
+}
+.five {
+	width : 340px;
+}
+.six {
+	width : 412px;
+}
+.seven {
+	width : 484px;
+}
+.eight {
+	width : 556px;
+}
+.nine {
+	width : 628px;
+}
+.ten {
+	width : 700px;
+}
+.eleven {
+	width : 772px;
+}
+.twelve {
+	width : 844px;
+}
+.thirteen {
+	width : 916px;
+}
+.fourteen {
+	width : 988px;
+}
+.fifteen {
+	width : 1060px;
+}
+
+
+/*Push lefts*/
+.pushLeftOne {
+	margin-left : 82px;
+}
+.pushLeftTwo {
+	margin-left : 154px;
+}
+.pushLeftThree {
+	margin-left : 226px;
+}
+.pushLeftFour {
+	margin-left : 298px;
+}
+.pushLeftFive {
+	margin-left : 370px;
+}
+.pushLeftSix {
+	margin-left : 442px;
+}
+.pushLeftSeven {
+	margin-left : 514px;
+}
+.pushLeftEight {
+	margin-left : 586px;
+}
+.pushLeftNine {
+	margin-left : 658px;
+}
+.pushLeftTen {
+	margin-left : 730px;
+}
+.pushLeftEleven {
+	margin-left : 802px;
+}
+.pushLeftTwelve {
+	margin-left : 874px;
+}
+.pushLeftThirteen {
+	margin-left : 946px;
+}
+.pushLeftFourteen {
+	margin-left : 1018px;
+}
+
+/*Push Rights*/
+.pushRightOne {
+	margin-right : 82px;
+}
+.pushRightTwo {
+	margin-right : 154px;
+}
+.pushRightThree {
+	margin-right : 226px;
+}
+.pushRightFour {
+	margin-right : 298px;
+}
+.pushRightFive {
+	margin-right : 370px;
+}
+.pushRightSix {
+	margin-right : 442px;
+}
+.pushRightSeven {
+	margin-right : 514px;
+}
+.pushRightEight {
+	margin-right : 586px;
+}
+.pushRightNine {
+	margin-right : 658px;
+}
+.pushRightTen {
+	margin-right : 730px;
+}
+.pushRightEleven {
+	margin-right : 802px;
+}
+.pushRightTwelve {
+	margin-right : 874px;
+}
+.pushRightThirteen {
+	margin-right : 946px;
+}
+.pushRightFourteen {
+	margin-right : 1018px;
+}
+
+/*Floats*/
+div {
+	float : left;
+}
+
+/*
+	BAG OF TRICKS
+*/
+
+.clear {
+	clear : both;
+	width : 0px;
+	height : 0px;
+	outline : none;
+	margin : 0px;
+	padding : 0px;
+}
