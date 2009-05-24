@@ -51,3 +51,8 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*STILL NOT SURE UPON SETTING DIVS TO RELATIVES*/
+div {
+	position : relative;
+}

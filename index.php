@@ -18,142 +18,34 @@
 </head>
 
 <body>
-<div class="one">&nbsp;</div>
+<div id="header">
+	<h1>I am Ad Taylor</h1>
+	<ol>
+		<li>Home</li>
+		<li>Portfolio</li>
+		<li>Musings</li>
+		<li>Cool Shiz</li>
+	</ol>
+	
+</div>	
+<div id="content">
+	
+	<h1>Example Layout Guidelines</h1>
+	<div class="caption two left">
+		<p>Images go in a div with the classes “<code>pic size direction</code>”. “<code>size</code>” can be <code>one</code>, <code>two</code>, <code>three</code>, <code>four</code>, <code>five</code>, <code>six</code>, or <code>seven</code>, direction can be <code>right</code> or <code>left</code>. Captions go in a <code>p</code>.</p>
+	</div>
 
-							<div class="clear">&nbsp;</div>
-							
-<div class="two">&nbsp;</div>
+	<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 
-							<div class="clear">&nbsp;</div>
-							
-<div class="three">&nbsp;</div>
+	<h2>Lorem Ipsum Dolor</h2>
+	
+	<div class="picture one right">
+		<p>Right outset image.</p>
+	</div>
 
-							<div class="clear">&nbsp;</div>
-							
-<div class="four">&nbsp;</div>
+	<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
-							<div class="clear">&nbsp;</div>
-							
-<div class="five">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="six">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="seven">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="eight">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="nine">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="ten">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="eleven">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="twelve">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="thirteen">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="fourteen">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-<div class="fifteen">&nbsp;</div>
-
-							<div class="clear">&nbsp;</div>
-							
-
-<!-- PUSH LEFTS -->
-							<div class="one">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="two pushLeftOne">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="three pushLeftTwo">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="four pushLeftThree">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="five pushLeftFour">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="six pushLeftFive">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="seven pushLeftSix">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="eight pushLeftSeven">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="nine pushLeftEight">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="ten pushLeftNine">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="eleven pushLeftTen">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="twelve pushLeftEleven">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="thirteen pushLeftTwelve">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="fourteen pushLeftThirteen">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-							<div class="fifteen pushLeftFourteen">&nbsp;</div>
-
-														<div class="clear">&nbsp;</div>
-
-<!-- PUSH RIGHTS -->
-
-
-
-	<div class="two pushRightThree">&nbsp;</div>
-
-
-	<div class="three pushRightTwo">&nbsp;</div>
-
-								<div class="clear">&nbsp;</div>
-
-	<div class="four pushLeftThree">&nbsp;</div>
-
-
+</div>
 
 </body>
 </html>
