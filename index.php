@@ -13,6 +13,14 @@
 	<link rel="stylesheet" href="css/home.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 	<link rel="stylesheet" href="css/18px.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 	
+	<script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/jquery.fontavailable.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui.min.js" type="text/javascript"></script>
+	
+	<script src="js/onload.js" type="text/javascript"></script>
+	<script src="js/cufon-yui.js" type="text/javascript"></script>
+	<script src="js/GraublauWeb_400-GraublauWeb_700.font.js" type="text/javascript"></script>
+	
 
 	
 </head>
@@ -21,10 +29,10 @@
 <div id="header">
 	<h1>I am Ad Taylor</h1>
 	<ol>
-		<li>Home</li>
-		<li>Portfolio</li>
-		<li>Musings</li>
-		<li>Cool Shiz</li>
+		<li><a href="#" title="Homepage">Contents</a></li>
+		<li><a href="#" title="">Portfolio</a></li>
+		<li><a href="#" title="">Musings</a></li>
+		<li><a href="#" title="">Cool Shiz</a></li>
 	</ol>
 	
 </div>	
@@ -46,6 +54,8 @@
 	<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
 
 </div>
+<div id="mask">&nbsp;</div>
+<script type="text/javascript">Cufon.now();</script>
 
 </body>
 </html>

@@ -1,3 +1,11 @@
+/* Graublau Web - By fonts.info [http://www.fonts.info/info/press/free-fonts-for-font-face-embedding.htm]*/
+@font-face {
+font-family: "GraublauWeb";
+src: url("fonts/GraublauWeb.otf");
+}
+
+
+
 /*
 	GRID
 */
@@ -19,37 +27,54 @@ div,p,img,caption {
 #header {
 	position : relative;
 	width : 100%;
-	height : 54px;
+	height : 36px;
 	margin : 0px;
 	
 	background-color: rgb(0,0,0);
-	color : rgb(244,244,244);
 	
+	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
+	color : rgb(244,244,244);
 }
 	#header h1 {
 		float : left;
 		display : inline;
 		
-		width : 196px;
+		width : 124px;
 		height : 100%;
 
 		text-indent : -9999px;
+		font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
+		
 	}
 	#header ol {
 		display: inline;
 		width : 844px;
-		height : 53px;
+		height : inherit;
 		
 		text-transform: uppercase;
-		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, Helvetica, "MS Trebuchet", sans-serif;
-		letter-spacing: 2px;
-		font-size : 14px;
+		letter-spacing: 1.5px;
+		font-size : 22px;
 		
 		list-style-type: decimal-leading-zero;
 		list-style-position: inside;
 		counter-reset: navItem;
 	    
+	
 	}
+		#header ol a {
+			color : rgb(244,244,244);
+			
+			text-decoration: none;
+		}
+			#header ol a:hover {
+				color : rgb(200,200,200);
+
+				text-decoration: none;
+			}
+		
+		#header ol li * {
+			margin : 0px;
+		}
 		#header ol li {
 			display: inline;
 			float : left;
@@ -57,14 +82,18 @@ div,p,img,caption {
 			margin-left: 20px ;
 			margin-right: 0px ;
 			
-			height : 53px;
+			padding-top : 9px;
+			height : 27px;
 			
-			
-			
+/*			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, Helvetica, "MS Trebuchet", sans-serif;*/
 			
 		}
+		#header ol li:hover {
+			background-color : rgb(75,75,75);
+		}
+		
 				#header ol li:first-child {
-					margin-left: 0px ;
+					margin-left: 10px ;
 				}
 				#header ol li:before {
 					      content: counter(navItem, decimal-leading-zero) ". ";
@@ -245,6 +274,16 @@ code {
 /*
 	BAG OF TRICKS
 */
+
+#mask {
+	position : absolute;
+	left : 1080px;
+	top : 36px;
+	bottom : 0px;
+	right : 0px;
+	
+	background: transparent url(../img/mask.png) repeat top left;
+	}
 
 .clear {
 	clear : both;
