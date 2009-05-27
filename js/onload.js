@@ -1,6 +1,7 @@
 $(document).ready(function() {
     if(!$.fontAvailable('Graublau Web')) {
         Cufon.replace('#header ol li');
+		Cufon.replace('h1');
 }
 
 $("#header ol li").backgroundFade("#DA9D17", "#000");
@@ -14,6 +15,8 @@ jQuery.fn.backgroundFade = function(fadeInColour,fadeOutColour) {
 				.animate({backgroundColor:fadeInColour}, 750)
 				//Fade back to original color
 				.animate({backgroundColor:fadeOutColour},750) 
+				// Add text shadow
+				.css({"text-shadow":"1px 1px 3px #000"})
 			}, 
 		function(){
 

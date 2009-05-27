@@ -100,26 +100,55 @@ div,p,img,caption {
 					      counter-increment: navItem;
 					  }
 
-#content {
+.content {
 	position : relative;
 	width : 1080px;
 }
 
-#content p, #content h1, #content h2, #content h3 {
+.content p, .content h1, .content h2, .content h3 {
 	margin : 20px 154px;
 }
-	#content div p {
+	.content div p {
 		margin : 0px;
 	}
 
 
-#content .caption, #content .picture p {
+.content .caption, .content .picture p {
 	color : #777;
 }
 
 code {
 	color: #79CBFC;
 }
+
+
+/*
+	footer 
+*/
+
+* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0px 0px -300px 0px;
+
+}
+#footer, #push {
+    min-height: 300px;
+}
+
+
+#footer {
+	background-color : rgba(0,0,0,0.5);
+}
+
+
 
 /*
 	SIZES AND PUSHES
@@ -171,6 +200,17 @@ code {
 	width : 1060px;
 }
 
+
+/*Floats*/
+.left {
+	float : left;
+	margin-left : 10px;
+}
+.right {
+	float : right;
+	margin-right : 10px;
+	
+}
 
 /*Push lefts*/
 .pushLeftOne {
@@ -260,16 +300,8 @@ code {
 	margin-right : 1018px;
 }
 
-/*Floats*/
-.left {
-	float : left;
-	margin-left : 10px;
-}
-.right {
-	float : right;
-	margin-right : 10px;
-	
-}
+
+
 
 /*
 	BAG OF TRICKS
@@ -293,3 +325,14 @@ code {
 	margin : 0px;
 	padding : 0px;
 }
+
+.clearfix:after {content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix { height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */

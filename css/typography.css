@@ -16,8 +16,9 @@ body, input, textarea {
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6 {
-	font-family : Georgia,Times,serif;
+	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
 	font-weight:normal;
+	letter-spacing : 1.5px;
 	clear:both;
 }
 
