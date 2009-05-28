@@ -8,7 +8,7 @@
 
 body, input, textarea {
     color:#000;    
-    font: 12px Arial,sans-serif;
+    font: 12px Helvetica,Arial,sans-serif;
     line-height:18px;
 }
 
@@ -16,7 +16,7 @@ body, input, textarea {
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6 {
-	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
+/*	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;*/
 	font-weight:normal;
 	letter-spacing : 1.5px;
 	clear:both;
@@ -122,23 +122,3 @@ blockquote.right {
 	width: 33%;
 }
 
-/*
-
-Adapt the following for use in your Child Themes when using
-different font-sizes and line-heights
-
-body, input, textarea {
-    font: --px Arial,sans-serif;
-    line-height:--px;
-}
-p, ul, ol, dd, pre {
-    margin-bottom:--px;
-}
-pre, code {
-	font:--px Monaco, monospace;
-	line-height:--px;
-}
-
-All other styles can be overridden--or ignored!--in Child Theme stylesheets
-
-*/

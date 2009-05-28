@@ -4,28 +4,26 @@ font-family: "GraublauWeb";
 src: url("fonts/GraublauWeb.otf");
 }
 
-
-
 /*
 	GRID
 */
 body {
-	background: #FFF url('../references/grid.jpg') repeat-y top left;
+/*	background: #FFF url('../references/grid.jpg') repeat-y top left;*/
+	background: transparent url(../img/maskBg.png) repeat-y scroll 1080px  0px;
 }
 
 
 /*
 	BASIC GRID MARKUP
 */
-div,p,img,caption {
-/*	outline : black solid thin;*/
-}
- #header *{
+
+#header *{
 	margin : 0px 10px;
 }
 
 #header {
 	position : relative;
+	overflow : hidden;
 	width : 100%;
 	height : 36px;
 	margin : 0px;
@@ -52,6 +50,7 @@ div,p,img,caption {
 		height : inherit;
 		
 		text-transform: uppercase;
+		text-shadow:  #000 1px 1px 3px;
 		letter-spacing: 1.5px;
 		font-size : 22px;
 		
@@ -85,8 +84,6 @@ div,p,img,caption {
 			padding-top : 9px;
 			height : 27px;
 			
-/*			font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Arial, Helvetica, "MS Trebuchet", sans-serif;*/
-			
 		}
 		#header ol li:hover {
 			background-color : rgb(75,75,75);
@@ -100,7 +97,7 @@ div,p,img,caption {
 					      counter-increment: navItem;
 					  }
 
-.content {
+.content, .home, .portfolio {
 	position : relative;
 	width : 1080px;
 }
@@ -143,9 +140,8 @@ html, body {
     min-height: 300px;
 }
 
-
 #footer {
-	background-color : rgba(0,0,0,0.5);
+	background-color : rgba(0,0,0,0.9);
 }
 
 
@@ -301,6 +297,52 @@ html, body {
 }
 
 
+/*
+	SPEECH BUBBLE FROM DAVID DESANDRO [http://desandro.com/resources/css-speech-bubble-icon] - A GENIUS!
+*/
+/**** Speech Bubble Icons *****/
+.spch-bub-inside {
+  position: relative;
+}
+a.spch-bub-inside {
+  color: #DA9D17;
+  text-decoration: none;
+}
+.spch-bub-inside em {
+  font-style: normal;
+}
+.spch-bub-inside em {
+  background: #2D3C6F;
+  color: #FFF;
+  padding: 0.1em 0.4em 0;
+  -moz-border-radius: 0.25em;
+  -webkit-border-radius: 0.25em;
+  border-radius: 0.25em;
+  position: relative;
+}
+.spch-bub-inside .point {
+  width: 0;
+  height: 0;
+  position: absolute;
+  top: 1em;
+  left: 0.4em;
+  display: block;
+  border-left: 0.45em solid #2D3C6F; 
+  border-bottom: 0.45em solid #FFF; /* IE fix */
+  border-bottom: 0.45em solid rgba(0,0,0,0); 
+  overflow: hidden; /* IE fix */
+}
+a.spch-bub-inside:hover {
+  color: #000;
+}
+a.spch-bub-inside:hover em {
+  cursor: pointer;
+  background: #000;
+  color: #FFF;
+}
+a.spch-bub-inside:hover .point {
+  border-left: 0.5em solid #000; 
+}
 
 
 /*
@@ -311,11 +353,16 @@ html, body {
 	position : absolute;
 	left : 1080px;
 	top : 36px;
-	bottom : 0px;
+/*	bottom : 0px;*/
 	right : 0px;
-	
+	height : 100%;
+	min-height : 100%;
 	background: transparent url(../img/mask.png) repeat top left;
 	}
+
+.noMargin {
+	margin : 0px; /*Terribly non-semantic I know*/
+}
 
 .clear {
 	clear : both;

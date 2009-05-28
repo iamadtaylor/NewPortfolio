@@ -9,11 +9,10 @@
 	
 		<link rel="stylesheet" href="css/reset.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		<link rel="stylesheet" href="css/typography.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-		<link rel="stylesheet" href="css/images.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-		<link rel="stylesheet" href="css/home.css" type="text/css" media="screen" title="no title" charset="utf-8" />
-		<link rel="stylesheet" href="css/18px.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<link rel="stylesheet" href="css/defaults.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		
-		<link rel="stylesheet" href="css/index.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<link rel="stylesheet" href="css/contents.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		
 		
 	
 		<script src="js/jquery.js" type="text/javascript"></script>
@@ -30,7 +29,7 @@
 
 	<body>
 		<div id="wrap">
-			<div id="header">
+			<div id="header" class="clearfix">
 				<h1>I am Ad Taylor</h1>
 				<ol>
 					<li><a href="#" title="Homepage">Contents</a></li>
@@ -41,36 +40,39 @@
 	
 			</div>
 
-			<div class="content">
+			<div class="home clearfix">
 	
-				<h1>I am Ad Taylor</h1>
-				<div class="caption two left">
-												<p>Images go in a div with the classes “<code>pic size direction</code>”. “<code>size</code>” can be <code>one</code>, <code>two</code>, <code>three</code>, <code>four</code>, <code>five</code>, <code>six</code>, or <code>seven</code>, direction can be <code>right</code> or <code>left</code>. Captions go in a <code>p</code>.</p>
-											</div>
+				<h1 class="left ten"><span>I am</span><br/><span> Ad Taylor</span></h1>
 
-											<p>Consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-
-											<h2>Lorem Ipsum Dolor</h2>
-								
-											<div class="picture one right">
-												<p>Right outset image.</p>
-											</div>
-
-											<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
-											
-				
+				<ul id="features">
+					<li class="portfolio">
+							<img src="img/hold/bulb.jpg" class="picture three" />
+							<h3><a href="#" title="View the portfolio of Ad Taylor">design portfolio</a></h3>
+							<p><a href="#" title="">Whether you want to hire me or are just wanting to procrastinate for a bit, take a look at my design portfolio. </a></p>
+					</li>
+					
+					<li class="article">
+							<span class="spch-bub"><a class="spch-bub-inside" href="#"><span class="point"></span><em>02</em></a></span>
+							<h3><a href="#" title="">don't forget ouline (CSS)</a></h3>
+							<p><a href="#" title="">Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit. Aasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</a></p>
+					</li>
+					
+					<li class="article">
+							<span class="spch-bub"><a class="spch-bub-inside" href="#"><span class="point"></span><em>4</em></a></span>
+							<h3><a href="#" title="">Saul Bass style creation and this title is longer than the last</a></h3>
+							<p><a href="#" title="">Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</a></p>
+					</li>
+				</ul>
 			</div>
-			<span id="mask">&nbsp;</span>
+					
 			<div id="push" >&nbsp;</div>
 		</div>
 		
 		<div id="footer">
 			<div class="content">
-				<h3>About Ad Taylor</h3>
-				<img src="img/hold/bulb.jpg" class="picture pushLeftTwo three left">
-				<p>Some lovely text</p>
 			</div>
 		</div>
+		
 		<script type="text/javascript">Cufon.now();</script>
 
 	</body>

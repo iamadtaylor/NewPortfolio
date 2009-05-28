@@ -1,10 +1,12 @@
 $(document).ready(function() {
     if(!$.fontAvailable('Graublau Web')) {
         Cufon.replace('#header ol li');
-		Cufon.replace('h1');
 }
 
 $("#header ol li").backgroundFade("#DA9D17", "#000");
+
+$("ul#features li").articleToggle("556px","628px","628px","700px", "200px", "103px");
+
 });
 
 jQuery.fn.backgroundFade = function(fadeInColour,fadeOutColour) {
@@ -13,13 +15,66 @@ jQuery.fn.backgroundFade = function(fadeInColour,fadeOutColour) {
 			$(this)
 				//Fade to the new color
 				.animate({backgroundColor:fadeInColour}, 750)
-				//Fade back to original color
-				.animate({backgroundColor:fadeOutColour},750) 
-				// Add text shadow
-				.css({"text-shadow":"1px 1px 3px #000"})
+				
 			}, 
 		function(){
-
+				//Fade back to original color
+				$(this).animate({backgroundColor:fadeOutColour},750) 
+				
 			}
 		);
+};
+
+
+jQuery.fn.articleToggle = function(width_in, width_out, width_in_portfolio, width_out_portfolio, width_shrink_portfolio, width_shrink) {
+	return this.each(function(){
+	        $(this).hover( 
+	            function()
+				{
+					if($(this).hasClass(".article")) {
+						$(this).animate({"width": width_out }, 350, function(){
+							$(this).children("p").show("normal");
+							$(this).siblings().children("h3").hide("normal");
+							$(this).siblings(".portfolio").animate({"width": width_shrink_portfolio }, 450);
+							$(this).siblings(".article").animate({"width": width_shrink }, 450);
+							
+							
+						});
+					}
+					if($(this).hasClass(".portfolio")) {
+						$(this).animate({"width": width_out_portfolio }, 350, function(){
+							$(this).children("p").show("normal");
+							$(this).siblings().children("h3").hide("normal");
+							$(this).siblings(".portfolio").animate({"width": width_shrink_portfolio }, 450);
+							$(this).siblings(".article").animate({"width": width_shrink }, 450);
+							
+							
+						});
+					}
+					
+					
+				},		
+				function()
+				{
+					if($(this).hasClass(".article")) {
+						$(this).animate({"width": width_in }, 350, function(){
+							$(this).children("p").hide("normal");
+							$(this).siblings().children("h3").show('normal');
+							$(this).siblings(".portfolio").animate({"width": width_in_portfolio }, 450);
+							$(this).siblings(".article").animate({"width": width_in }, 450);
+						});
+					}
+					if($(this).hasClass(".portfolio")) {
+						$(this).animate({"width": width_in_portfolio }, 350, function(){
+							$(this).children("p").hide("normal");
+							$(this).siblings().children("h3").show('normal');
+							$(this).siblings(".portfolio").animate({"width": width_in_portfolio }, 450);
+							$(this).siblings(".article").animate({"width": width_in }, 550);
+						});
+					}
+					
+				}
+	        );
+	    });
+	
 };
