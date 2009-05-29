@@ -12,6 +12,10 @@ body {
 	background: transparent url(../img/maskBg.png) repeat-y scroll 1080px  0px;
 }
 
+#footer {
+		background: #FFF url('../references/grid.jpg') repeat-y top left;
+}
+
 
 /*
 	BASIC GRID MARKUP

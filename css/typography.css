@@ -9,7 +9,7 @@
 body, input, textarea {
     color:#000;    
     font: 12px Helvetica,Arial,sans-serif;
-    line-height:18px;
+    line-height : 1.50em;
 }
 
 /* Headings

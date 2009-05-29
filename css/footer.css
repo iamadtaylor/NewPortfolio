@@ -1,0 +1,62 @@
+/*
+	SET FLOATS
+*/
+#footer #leftFooter, #footer #rightFooter {
+	float : left;
+	margin : 0px 10px;
+		
+}
+	#footer #about, #footer #socialHub, #footer #recentPosts, #footer #flickr {
+		float : left;
+	}
+	/*
+		SET WIDTHS
+	*/
+	#footer #leftFooter{
+		width : 700px;
+	}
+	
+	#footer #rightFooter {
+		width : 340px;
+	}
+		#footer #about, #footer #recentPosts {
+			width : 628px;
+			padding-left : 72px;
+		}
+	
+		 #footer #socialHub, #footer #flickr {
+			width : 268px;
+		}
+
+/*
+	STYLING
+*/
+#footer ul{
+	list-style: none inside;
+	padding-left : 52px;
+	margin : 0px;
+	
+}
+
+#footer #about p {
+	padding-left : 52px;
+}
+
+
+
+
+/*
+	TYPE
+*/
+#footer h2 {
+	font-size : 36px;
+	line-height : 2em;
+}
+
+#footer h3 {
+	font-size : 28px;
+}
+
+#footer p {
+	
+}

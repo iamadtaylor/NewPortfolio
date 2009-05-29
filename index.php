@@ -11,6 +11,9 @@
 		<link rel="stylesheet" href="css/typography.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		<link rel="stylesheet" href="css/defaults.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		
+		<link rel="stylesheet" href="css/footer.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		
+		
 		<link rel="stylesheet" href="css/contents.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		
 		
@@ -68,24 +71,12 @@
 			<div id="push" >&nbsp;</div>
 		</div>
 		
-		<div id="footer">
-			<div class="content">
+		<div id="footer" class="clearfix">
+			<div id="leftFooter">
 				<div id="about">
 					<h2>About Ad Taylor</h2>
 					<img src="" / >
 					<p>about info</p>
-				</div>
-				
-				<div id="socialHub">
-					<h2>Social Hub</h2>
-					<ul>
-						<li>Twitter</li>
-						<li>Vimeo</li>
-						<li>Flickr</li>
-						<li>Delicious</li>
-						<li>Last.fm</li>
-						<li>Facebook</li>
-					</ul>
 				</div>
 				
 				<div id="recentPosts">
@@ -104,6 +95,20 @@
 							<h3>Post 3</h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
+					</ul>
+				</div>
+			</div>
+			
+			<div id="rightFooter">	
+				<div id="socialHub">
+					<h2>Social Hub</h2>
+					<ul>
+						<li>Twitter</li>
+						<li>Vimeo</li>
+						<li>Flickr</li>
+						<li>Delicious</li>
+						<li>Last.fm</li>
+						<li>Facebook</li>
 					</ul>
 				</div>
 				
