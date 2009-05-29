@@ -70,6 +70,52 @@
 		
 		<div id="footer">
 			<div class="content">
+				<div id="about">
+					<h2>About Ad Taylor</h2>
+					<img src="" / >
+					<p>about info</p>
+				</div>
+				
+				<div id="socialHub">
+					<h2>Social Hub</h2>
+					<ul>
+						<li>Twitter</li>
+						<li>Vimeo</li>
+						<li>Flickr</li>
+						<li>Delicious</li>
+						<li>Last.fm</li>
+						<li>Facebook</li>
+					</ul>
+				</div>
+				
+				<div id="recentPosts">
+					<h2>Recent Posts</h2>
+					<ul>
+						<li>
+							<h3>Post 1</h3>
+							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
+						</li>
+						
+						<li>
+							<h3>Post 2</h3>
+							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
+						</li>
+						<li>
+							<h3>Post 3</h3>
+							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
+						</li>
+					</ul>
+				</div>
+				
+				<div id="flickr">
+					<h2>Flickr</h2>
+					<img src="" alt="" />
+					<img src="" alt="" />
+					
+					<img src="" alt="" />
+					<img src="" alt="" />
+				</div>
+					
 			</div>
 		</div>
 		

@@ -302,46 +302,46 @@ html, body {
 */
 /**** Speech Bubble Icons *****/
 .spch-bub-inside {
-  position: relative;
+	position: relative;
 }
 a.spch-bub-inside {
-  color: #DA9D17;
-  text-decoration: none;
+	color: #DA9D17;
+	text-decoration: none;
 }
 .spch-bub-inside em {
-  font-style: normal;
+	font-style: normal;
 }
 .spch-bub-inside em {
-  background: #2D3C6F;
-  color: #FFF;
-  padding: 0.1em 0.4em 0;
-  -moz-border-radius: 0.25em;
-  -webkit-border-radius: 0.25em;
-  border-radius: 0.25em;
-  position: relative;
+	background: rgba(45,60,111,1);
+	color: #FFF;
+	padding: 0.1em 0.4em 0;
+	-moz-border-radius: 0.25em;
+	-webkit-border-radius: 0.25em;
+	border-radius: 0.25em;
+	position: relative;
 }
 .spch-bub-inside .point {
-  width: 0;
-  height: 0;
-  position: absolute;
-  top: 1em;
-  left: 0.4em;
-  display: block;
-  border-left: 0.45em solid #2D3C6F; 
-  border-bottom: 0.45em solid #FFF; /* IE fix */
-  border-bottom: 0.45em solid rgba(0,0,0,0); 
-  overflow: hidden; /* IE fix */
+	width: 0;
+	height: 0;
+	position: absolute;
+	top: 1em;
+	left: 0.4em;
+	display: block;
+	border-left: 0.45em solid  rgba(45,60,111,1); 
+	border-bottom: 0.45em solid #FFF; /* IE fix */
+	border-bottom: 0.45em solid rgba(0,0,0,0); 
+	overflow: hidden; /* IE fix */
 }
 a.spch-bub-inside:hover {
-  color: #000;
+	color: #000;
 }
 a.spch-bub-inside:hover em {
-  cursor: pointer;
-  background: #000;
-  color: #FFF;
+	cursor: pointer;
+	background: #000;
+	color: #FFF;
 }
 a.spch-bub-inside:hover .point {
-  border-left: 0.5em solid #000; 
+	border-left: 0.5em solid #000; 
 }
 
 
