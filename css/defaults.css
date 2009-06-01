@@ -12,10 +12,6 @@ body {
 	background: transparent url(../img/maskBg.png) repeat-y scroll 1080px  0px;
 }
 
-#footer {
-		background: #FFF url('../references/grid.jpg') repeat-y top left;
-}
-
 
 /*
 	BASIC GRID MARKUP
@@ -90,7 +86,7 @@ body {
 			
 		}
 		#header ol li:hover {
-			background-color : rgb(75,75,75);
+			background-color : #DA9D17;
 		}
 		
 				#header ol li:first-child {

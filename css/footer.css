@@ -1,3 +1,9 @@
+
+#footer {
+/*		background: #FFF url('../references/grid.jpg') repeat-y top left;*/
+		color : #ccc;
+}
+
 /*
 	SET FLOATS
 */
@@ -13,15 +19,15 @@
 		SET WIDTHS
 	*/
 	#footer #leftFooter{
-		width : 700px;
+		width : 772px;
 	}
 	
 	#footer #rightFooter {
-		width : 340px;
+		width : 268px;
 	}
 		#footer #about, #footer #recentPosts {
-			width : 628px;
-			padding-left : 72px;
+			width : 772px;
+/*			padding-left : 72px;*/
 		}
 	
 		 #footer #socialHub, #footer #flickr {
@@ -31,19 +37,53 @@
 /*
 	STYLING
 */
-#footer ul{
-	list-style: none inside;
-	padding-left : 52px;
-	margin : 0px;
-	
-}
+
 
 #footer #about p {
 	padding-left : 52px;
 }
 
+#footer #leftFooter {
+	border-right: 1px solid #999;
+}
 
+	#footer #leftFooter p {
+		float : left;
+		width : 464px;
+		padding-right : 20px;
+		}
+			#footer #leftFooter #about p {
+				padding-left : 20px;
+				margin-top : 22px;
+				}
 
+	#footer #leftFooter h2 {
+		float : left;
+		width : 268px;
+	
+		}
+			#footer #leftFooter #about h2{
+				margin-top : 4px;
+				}
+		
+	#footer #leftFooter ul{
+			list-style: none inside;
+			padding-left : 20px;
+			margin : 16px 0 0;
+			float : left;
+			width : 484px;
+
+		}
+			#footer #leftFooter ul li {
+				margin-bottom : 18px;
+			}
+		#footer #leftFooter #recentPosts h3, #footer #leftFooter #recentPosts p, #footer #leftFooter #recentPosts ul li {
+			float : none;
+		}
+			
+	#footer #leftFooter h3 {
+		margin-bottom : 9px;
+	}
 
 /*
 	TYPE
@@ -51,12 +91,36 @@
 #footer h2 {
 	font-size : 36px;
 	line-height : 2em;
+	
+	text-transform: lowercase;
+	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
+	
 }
+	#footer #leftFooter h2:after{
+		color : #DA9D17;
+		content : " {";
 
+	}
+			#footer #leftFooter h2 {
+				text-align : right;
+			}
 #footer h3 {
-	font-size : 28px;
+	font-size : 20px;
+	line-height : 27px;
 }
 
 #footer p {
-	
+		font-family : "Helvetica Neue",Arial,Helvetica,sans-serif;
+		letter-spacing : 0.09em;
+		
+		font-size : 11px;	
 }
+	#footer #about p:before {
+		color : #DA9D17;
+		content : "“";	
+	}
+	#footer #about p:after {
+		color : #DA9D17;
+		content : "”";
+		
+	}

@@ -74,16 +74,15 @@
 		<div id="footer" class="clearfix">
 			<div id="leftFooter">
 				<div id="about">
-					<h2>About Ad Taylor</h2>
-					<img src="" / >
-					<p>about info</p>
+					<h2>About me</h2>
+					<p>I am a freelance designer from Birmingham. I have just completed a degree in Multimedia Computing from Coventry University. I am besotted with design of all shapes and sizes (though I have a particular soft spot for typographical design), nothing makes me happier than sitting down and working through a design problem — even though it seems to be turning me translucent.</p>
 				</div>
 				
 				<div id="recentPosts">
 					<h2>Recent Posts</h2>
 					<ul>
 						<li>
-							<h3>Post 1</h3>
+							<h3>Saul Bass style creation and this title is longer than the last</h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						
@@ -92,13 +91,14 @@
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						<li>
-							<h3>Post 3</h3>
+							<h3>don't forget ouline (CSS)</h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
+						
 					</ul>
+					
 				</div>
 			</div>
-			
 			<div id="rightFooter">	
 				<div id="socialHub">
 					<h2>Social Hub</h2>
@@ -122,8 +122,9 @@
 				</div>
 					
 			</div>
+			
+			
 		</div>
-		
 		<script type="text/javascript">Cufon.now();</script>
 
 	</body>
