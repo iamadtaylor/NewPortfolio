@@ -71,27 +71,27 @@
 			<div id="push" >&nbsp;</div>
 		</div>
 		
-		<div id="footer" class="clearfix">
+		<div id="footer" class="clearfix vcard">
 			<div id="leftFooter">
 				<div id="about">
 					<h2>About me</h2>
-					<p>I am a freelance designer from Birmingham. I have just completed a degree in Multimedia Computing from Coventry University. I am besotted with design of all shapes and sizes (though I have a particular soft spot for typographical design), nothing makes me happier than sitting down and working through a design problem — even though it seems to be turning me translucent.</p>
+					<p><strong class="fn n" rel="me"><span class="given-name nickname">Ad</span> <span class="family-name">Taylor</span></strong> is a <span class="role" >freelance web designer</span> from <span class="adr"><span class="locality">Birmingham</span>,<span class="country-name"><span class="value-title" title="United Kingdom"> UK</span></span>. I have just completed a degree in Multimedia Computing from Coventry University. I am besotted with design of all shapes and sizes (though I have a particular soft spot for typographical design), nothing makes me happier than sitting down and working through a design problem — even though it seems to be turning me translucent.</p>
 				</div>
 				
 				<div id="recentPosts">
 					<h2>Recent Posts</h2>
 					<ul>
 						<li>
-							<h3>Saul Bass style creation and this title is longer than the last</h3>
+							<h3><a href="" >Saul Bass style creation and this title is longer than the last</a></h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						
 						<li>
-							<h3>Post 2</h3>
+							<h3><a href="" >Post 2</a></h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						<li>
-							<h3>don't forget ouline (CSS)</h3>
+							<h3><a href="" >don't forget ouline (CSS)</a></h3>
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						
@@ -99,26 +99,41 @@
 					
 				</div>
 			</div>
-			<div id="rightFooter">	
+			<div id="rightFooter">
+				<div id="contact">
+					<h2>Contact</h2>
+					<ul>
+						<li><a href="mailto:hi@iamadtaylor.com" title="Email address" class="email pref">hi@iamadtaylor.com</a></li>
+						<li class="tel" lang="en-gb">
+							<span class="type">
+							    <span class="value-title" title="cell"> </span>
+							      mobile :
+							    </span>
+							<span class="value">07595 300 841</span>
+						</li>
+						<li><a title="Contact me throught Jabber" href="xmpp://ad@iamadtaylor.com" class="url im pref" rel="me">Contact me through Jabber</a></li>
+					</ul>
+				</div>
+				
 				<div id="socialHub">
 					<h2>Social Hub</h2>
 					<ul>
-						<li>Twitter</li>
-						<li>Vimeo</li>
-						<li>Flickr</li>
-						<li>Delicious</li>
-						<li>Last.fm</li>
-						<li>Facebook</li>
+						<li><a href="https://twitter.com/iamadtaylor" rel="me" title="Ad Taylors twitter page">Twitter</a></li>
+						<li><a href="http://www.vimeo.com/adtaylor" rel="me" title="Ad Taylors vimeo page">Vimeo</a></li>
+						<li><a href="http://www.flickr.com/photos/adhoc01/" rel="me" title="Ad Taylors Flickr page">Flickr</a></li>
+						<li><a href="http://delicious.com/iamadtaylor" rel="me" title="Ad Taylors Delicious page">Delicious</a></li>
+						<li><a href="http://www.last.fm/user/iamadtaylor" rel="me" title="Ad Taylors Last.fm page">Last.fm</a></li>
 					</ul>
 				</div>
 				
 				<div id="flickr">
 					<h2>Flickr</h2>
-					<img src="" alt="" />
-					<img src="" alt="" />
+					<img src="img/tempFlickr/flickr_1.jpg" alt="Flickr Description" />
+					<img src="img/tempFlickr/flickr_2.jpg" alt="Flickr Description" />
 					
-					<img src="" alt="" />
-					<img src="" alt="" />
+					<img src="img/tempFlickr/flickr_3.jpg" alt="Flickr Description" />
+					<img src="img/tempFlickr/flickr_4.jpg" alt="Flickr Description" />
+					
 				</div>
 					
 			</div>

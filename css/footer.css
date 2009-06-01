@@ -83,11 +83,38 @@
 			
 	#footer #leftFooter h3 {
 		margin-bottom : 9px;
+		padding-right : 20px;
 	}
+	
+	#footer #rightFooter #flickr img, #footer #rightFooter #flickr img + img + img + img {
+		width : 114px;
+		margin-left : 20px;
+		margin-bottom : 20px;
+		
+		border : 20px solid rgba(255,255,255,0.2);
+	}
+		#footer #rightFooter #flickr h2 + img, #footer #rightFooter #flickr img + img + img{
+			margin-left : 0px;
+		}
 
+	#footer #rightFooter #contact ul{
+		list-style: none inside;
+		margin : 0px;
+	}
+		#footer #rightFooter #contact ul li:first-child a{
+			font-size : 18px;
+			color : #DA9D17;
+			text-shadow : 2px 0px #333;
+		}
 /*
 	TYPE
 */
+#footer a {
+	color : #ccc;
+	text-decoration : none;
+	cursor : pointer;
+}
+
 #footer h2 {
 	font-size : 36px;
 	line-height : 2em;
@@ -108,6 +135,10 @@
 	font-size : 20px;
 	line-height : 27px;
 }
+	#footer a:hover {
+		text-decoration: underline;
+		color : #0da8f0;
+	}
 
 #footer p {
 		font-family : "Helvetica Neue",Arial,Helvetica,sans-serif;
@@ -124,3 +155,7 @@
 		content : "”";
 		
 	}
+	#footer #recentPosts p {
+		color : #777;
+	}
+	
