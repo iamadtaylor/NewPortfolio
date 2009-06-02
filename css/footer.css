@@ -21,9 +21,7 @@
 	margin : 0px 10px;
 		
 }
-	#footer #about, #footer #socialHub, #footer #recentPosts, #footer #flickr {
-		float : left;
-	}
+
 	/*
 		SET WIDTHS
 	*/
@@ -36,7 +34,6 @@
 	}
 		#footer #about, #footer #recentPosts {
 			width : 772px;
-/*			padding-left : 72px;*/
 		}
 	
 		 #footer #socialHub, #footer #flickr {

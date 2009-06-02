@@ -2,16 +2,29 @@ $(document).ready(function() {
     if(!$.fontAvailable('Graublau Web')) {
         Cufon.replace('#header ol li');
 }
+var rgbaCheck = $("#header").isRGBa();
 
-$("#header ol li").backgroundFade("#DA9D17", "#000");
+
+	$("#header ol li").backgroundFade("#DA9D17", "#000");
 
 $("ul#features li").articleToggle("556px","628px","628px","700px", "200px", "103px");
 
 });
 
+jQuery.fn.isRGBa = function() {
+	var bgColour = $(this).css("background-color");
+	var rgba = /rgba|RGBa|rgbA/;
+	var matchCheck = bgColour.search(rgba);
+	if(matchCheck != -1)
+		return true; 
+	else
+		return false;
+	
+};
+
 jQuery.fn.backgroundFade = function(fadeInColour,fadeOutColour) {
 	$(this).hover( 
-		function() { 
+		function() {
 			$(this)
 				//Fade to the new color
 				.animate({backgroundColor:fadeInColour}, 750)
@@ -19,6 +32,7 @@ jQuery.fn.backgroundFade = function(fadeInColour,fadeOutColour) {
 			}, 
 		function(){
 				//Fade back to original color
+				
 				$(this).animate({backgroundColor:fadeOutColour},750) 
 				
 			}

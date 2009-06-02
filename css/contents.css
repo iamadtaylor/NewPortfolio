@@ -43,9 +43,7 @@ body {
 		.home ul#features li:first-child {
 			width : 628px;
 		}
-		.home  ul#features li h3, .home  ul#features li p, .home  ul#features li img {
-			float : left;
-		}
+	
 
 
 	.home #features h3 {
@@ -58,6 +56,7 @@ body {
 	}
 		.home #features .portfolio h3 {
 			left : 205px;
+			top : 6px;
 		}
 	
 	/*UNIVERSAL <P>*/
