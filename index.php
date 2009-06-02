@@ -83,16 +83,21 @@
 					<ul>
 						<li>
 							<h3><a href="" >Saul Bass style creation and this title is longer than the last</a></h3>
-							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
+							<a href="" class="meta">31st May 2009</a>
+							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit. Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit</p>
 						</li>
 						
 						<li>
 							<h3><a href="" >Post 2</a></h3>
+							<a href="" class="meta">12th May 2009</a>
+							
 							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
 						</li>
 						<li>
 							<h3><a href="" >don't forget ouline (CSS)</a></h3>
-							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.</p>
+							<a href="" class="meta"> 6th May 2009</a>
+							
+							<p>Excerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Excerpt Phasellus wisi purus, interdum vitae.<br/>Rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velitExcerpt Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit.Phasellus wisi purus, interdum vitae, rutrum accumsan, viverra in, velit</p>
 						</li>
 						
 					</ul>
@@ -101,7 +106,6 @@
 			</div>
 			<div id="rightFooter">
 				<div id="contact">
-					<h2>Contact</h2>
 					<ul>
 						<li><a href="mailto:hi@iamadtaylor.com" title="Email address" class="email pref">hi@iamadtaylor.com</a></li>
 						<li class="tel" lang="en-gb">
@@ -118,19 +122,18 @@
 				<div id="socialHub">
 					<h2>Social Hub</h2>
 					<ul>
-						<li><a href="https://twitter.com/iamadtaylor" rel="me" title="Ad Taylors twitter page">Twitter</a></li>
-						<li><a href="http://www.vimeo.com/adtaylor" rel="me" title="Ad Taylors vimeo page">Vimeo</a></li>
-						<li><a href="http://www.flickr.com/photos/adhoc01/" rel="me" title="Ad Taylors Flickr page">Flickr</a></li>
-						<li><a href="http://delicious.com/iamadtaylor" rel="me" title="Ad Taylors Delicious page">Delicious</a></li>
-						<li><a href="http://www.last.fm/user/iamadtaylor" rel="me" title="Ad Taylors Last.fm page">Last.fm</a></li>
+						<li><a href="https://twitter.com/iamadtaylor" rel="me" title="Ad Taylors twitter page"><img src="img/hicons/twitter_32.png" width="32" height="32" alt="Twitter 32"/><span class="socialText">Twitter</span></a></li>
+						<li><a href="http://www.vimeo.com/adtaylor" rel="me" title="Ad Taylors vimeo page"><img src="img/hicons/vimeo_32.png" width="32" height="32" alt="Vimeo 32"/><span class="socialText">Vimeo</span></a></li>
+						<li><a href="http://www.flickr.com/photos/adhoc01/" rel="me" title="Ad Taylors Flickr page"><img src="img/hicons/flickr_32.png" width="32" height="32" alt="Flickr 32"/><span class="socialText">Flickr</span></a></li>
+						<li><a href="http://delicious.com/iamadtaylor" rel="me" title="Ad Taylors Delicious page"><img src="img/hicons/delicious_32x32.png" width="32" height="32" alt="Delicious 32x32"/><span class="socialText">Delicious</span></a></li>
+						<li><a href="http://www.last.fm/user/iamadtaylor" rel="me" title="Ad Taylors Last.fm page"><img src="img/hicons/lastfm_32.png" width="32" height="32" alt="Lastfm 32"/><span class="socialText">Last.fm</span></a></li>
 					</ul>
 				</div>
-				
 				<div id="flickr">
 					<h2>Flickr</h2>
-					<img src="img/tempFlickr/flickr_1.jpg" alt="Flickr Description" />
-					<img src="img/tempFlickr/flickr_2.jpg" alt="Flickr Description" />
-					
+					<!-- <img src="img/tempFlickr/flickr_1.jpg" alt="Flickr Description" />
+									<img src="img/tempFlickr/flickr_2.jpg" alt="Flickr Description" />
+									 -->
 					<img src="img/tempFlickr/flickr_3.jpg" alt="Flickr Description" />
 					<img src="img/tempFlickr/flickr_4.jpg" alt="Flickr Description" />
 					

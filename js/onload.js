@@ -31,10 +31,10 @@ jQuery.fn.articleToggle = function(width_in, width_out, width_in_portfolio, widt
 	        $(this).hover( 
 	            function()
 				{
-					$(this).siblings().children("h3").hide();
+					$(this).siblings().children("h3").animate({"opacity": "0" }, 250);
 					if($(this).hasClass(".article")) {
 						$(this).animate({"width": width_out }, 350, function(){
-							$(this).children("p").show("normal");
+							$(this).children("p").animate({"opacity": "1" }, 250);
 							
 							$(this).siblings(".portfolio").animate({"width": width_shrink_portfolio }, 450);
 							$(this).siblings(".article").animate({"width": width_shrink }, 450);
@@ -44,7 +44,7 @@ jQuery.fn.articleToggle = function(width_in, width_out, width_in_portfolio, widt
 					}
 					if($(this).hasClass(".portfolio")) {
 						$(this).animate({"width": width_out_portfolio }, 350, function(){
-							$(this).children("p").show("normal");
+							$(this).children("p").animate({"opacity": "1" }, 250);
 							$(this).siblings(".portfolio").animate({"width": width_shrink_portfolio }, 450);
 							$(this).siblings(".article").animate({"width": width_shrink }, 450);
 							
@@ -58,16 +58,16 @@ jQuery.fn.articleToggle = function(width_in, width_out, width_in_portfolio, widt
 				{
 					if($(this).hasClass(".article")) {
 						$(this).animate({"width": width_in }, 350, function(){
-							$(this).children("p").hide("normal");
-							$(this).siblings().children("h3").show('slow');
+							$(this).children("p").animate({"opacity": "0" }, 250);
+							$(this).siblings().children("h3").animate({"opacity": "1" }, 250);
 							$(this).siblings(".portfolio").animate({"width": width_in_portfolio }, 250);
 							$(this).siblings(".article").animate({"width": width_in }, 250);
 						});
 					}
 					if($(this).hasClass(".portfolio")) {
 						$(this).animate({"width": width_in_portfolio }, 350, function(){
-							$(this).children("p").hide("normal");
-							$(this).siblings().children("h3").show('slow');
+							$(this).children("p").animate({"opacity": "0" }, 250);
+							$(this).siblings().children("h3").animate({"opacity": "1" }, 250);
 							$(this).siblings(".portfolio").animate({"width": width_in_portfolio }, 250);
 							$(this).siblings(".article").animate({"width": width_in }, 250);
 						});

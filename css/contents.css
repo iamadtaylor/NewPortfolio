@@ -28,6 +28,7 @@ body {
 	list-style: none;
 }
 	.home  ul#features li{
+		position : relative;
 		float : right;
 		clear : right;
 		width : 556px;
@@ -48,17 +49,27 @@ body {
 
 
 	.home #features h3 {
+		position : absolute;
+		top : 5px;
 		font-size : 56px;
 		line-height : 56px;
 		color : #EEE;
 		clear : none;
 	}
+		.home #features .portfolio h3 {
+			left : 205px;
+		}
 	
 	/*UNIVERSAL <P>*/
 	.home  ul#features li p {
-		display: none;
-	}
-	
+				position : absolute;
+				opacity : 0;
+				top : 56px;
+			}
+			.home #features .portfolio p {
+				top : 68px;
+				left : 205px;
+			}
 	.home  ul#features li h3 + p {
 		margin-top : 10px;
 	}

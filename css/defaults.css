@@ -32,6 +32,9 @@ body {
 	
 	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
 	color : rgb(244,244,244);
+	
+	min-width : 1081px;
+	width : 100%;
 }
 	#header h1 {
 		float : left;
