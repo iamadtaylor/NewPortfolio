@@ -1,0 +1,73 @@
+/*
+	STYLE AND STRUCTURE
+*/
+#footer #leftFooter p {
+	float : left;
+	width : 464px;
+	padding-right : 20px;
+	}
+		#footer #leftFooter #about p {
+			padding-left : 20px;
+			margin-top : 22px;
+			}
+
+#footer #leftFooter h2 {
+	float : left;
+	width : 268px;
+
+	}
+		#footer #leftFooter #about h2{
+			margin-top : 4px;
+			}
+	
+#footer #leftFooter ul{
+		list-style: none inside;
+		padding-left : 20px;
+		margin : 14px 0 0;
+		float : left;
+		width : 484px;
+
+	}
+		#footer #leftFooter ul li {
+			margin-bottom : 28px;
+		}
+	#footer #leftFooter #recentPosts h3, #footer #leftFooter #recentPosts p, #footer #leftFooter #recentPosts ul li {
+		float : none;
+	}
+		
+#footer #leftFooter h3 {
+	padding-right : 20px;
+}
+
+/*
+	TYPE
+*/
+
+#footer #leftFooter h2:after{
+	color : #DA9D17;
+	content : " {";
+
+}
+		#footer #leftFooter h2 {
+			text-align : right;
+		}
+
+		#footer #about p:before {
+			color : #DA9D17;
+			content : "“";	
+		}
+		#footer #about p:after {
+			color : #DA9D17;
+			content : "”";
+
+		}
+		#footer #recentPosts a.meta {
+			color : #0da8f0;
+			text-transform: uppercase;
+			line-height : 30px;
+			font-size : 10px;
+			letter-spacing : 1.2px;
+		}
+		#footer #recentPosts p {
+			color : #777;
+		}

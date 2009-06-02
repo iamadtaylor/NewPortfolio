@@ -1,0 +1,137 @@
+/*
+	STYLE AND STRUCTURE
+*/
+#footer #leftFooter #categories, #footer #leftFooter #comments {
+	width : 772px;
+	overflow : auto;
+}
+	#footer #leftFooter #categories {
+		margin-bottom : 36px;
+	}
+
+#footer #leftFooter dd {
+	float : left;
+	width : 464px;
+	padding-right : 20px;
+	border-top : 1px dotted #CCCCCC;
+	}
+
+#footer #leftFooter h3, #footer #leftFooter dt {
+	float : left;
+	width : 268px;
+
+	}
+		#footer #leftFooter #categories h3{
+			margin-top : 4px;
+			}
+	
+#footer #leftFooter ul{
+		list-style: none inside;
+		padding-left : 20px;
+		margin : 14px 0 0;
+		float : left;
+		width : 457px;
+
+	}
+		#footer #leftFooter ul li {
+			margin-bottom : 28px;
+		}
+			#footer #leftFooter #categories ul {
+				margin-top : 30px;
+				
+				}
+				#footer #leftFooter #categories ul li{
+					display : inline;
+					padding : 10px;
+					background-color : #0da8f0;
+				}
+ #footer #leftFooter #comments ul {
+	width : 772px;
+	margin : 60px 0 0;
+	padding : 0px;
+}
+		 #footer #leftFooter #comments h3 + p {
+			margin-top : 18px;
+		}
+
+		
+#footer #leftFooter h3, #footer #leftFooter dt {
+	padding-right : 20px;
+}
+
+#footer #leftFooter dl {
+	margin : 0px;
+	padding : 0px;
+}
+	#footer #leftFooter dd img {
+		float : left;
+		width : 80px;
+		border-right : 1px dotted #CCCCCC;
+		border-left : 1px dotted #CCCCCC;
+		border-bottom : 1px dotted #CCCCCC;
+	}
+	#footer #comments dd blockquote {
+		margin : 0px;
+	}
+	#footer #comments dd abbr {
+		float : left;
+		clear : both;
+		width : 82px;
+		border : none;
+	}
+	#footer #leftFooter dd img,#footer #leftFooter dd abbr {
+		margin-right : 10px;
+	}
+
+	#footer #comments #commentform ul {
+		width : 484px;
+		margin-top : 15px;
+	}
+
+/*
+	TYPE
+*/
+
+#footer #leftFooter h3, #footer #leftFooter dt {
+	font-size : 36px;
+	line-height : 2em;
+	
+	text-transform: lowercase;
+	font-family : "GraublauWeb", "Graublau Web","Trebuchet MS", sans-serif;
+	font-weight : normal;
+	
+}
+	#footer #leftFooter dt {
+		font-size : 20px;
+		text-transform: none;
+	}
+
+#footer #leftFooter h3:after, #footer #leftFooter dt:after{
+	color : #DA9D17;
+	content : " {";
+
+}
+		#footer #leftFooter h3, #footer #leftFooter dt {
+			text-align : right;
+		}
+
+		#footer #comments abbr {
+			color : #0da8f0;
+			text-transform: uppercase;
+			text-align: right;
+			line-height : 30px;
+			font-size : 10px;
+			letter-spacing : 1.2px;
+		}
+		#footer #leftFooter dd p:before {
+			color : #DA9D17;
+			content : "“ ";	
+		}
+		#footer #leftFooter dd p:after {
+			color : #DA9D17;
+			content : " ”";
+		}
+#footer .required:after {
+	color : red;
+	content : " *";
+}

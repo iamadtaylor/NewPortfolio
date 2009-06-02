@@ -12,6 +12,8 @@
 		<link rel="stylesheet" href="css/defaults.css" type="text/css" media="screen" title="no title" charset="utf-8" />
 		
 		<link rel="stylesheet" href="css/footer.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		<link rel="stylesheet" href="css/footerMain.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+		
 		
 		
 		<link rel="stylesheet" href="css/contents.css" type="text/css" media="screen" title="no title" charset="utf-8" />
@@ -121,20 +123,20 @@
 				<div id="socialHub">
 					<h2>Social Hub</h2>
 					<ul>
-						<li><a href="https://twitter.com/iamadtaylor" rel="me" title="Ad Taylors twitter page"><img src="img/hicons/twitter_32.png" width="32" height="32" alt="Twitter 32"/><span class="socialText">Twitter</span></a></li>
-						<li><a href="http://www.vimeo.com/adtaylor" rel="me" title="Ad Taylors vimeo page"><img src="img/hicons/vimeo_32.png" width="32" height="32" alt="Vimeo 32"/><span class="socialText">Vimeo</span></a></li>
-						<li><a href="http://www.flickr.com/photos/adhoc01/" rel="me" title="Ad Taylors Flickr page"><img src="img/hicons/flickr_32.png" width="32" height="32" alt="Flickr 32"/><span class="socialText">Flickr</span></a></li>
-						<li><a href="http://delicious.com/iamadtaylor" rel="me" title="Ad Taylors Delicious page"><img src="img/hicons/delicious_32x32.png" width="32" height="32" alt="Delicious 32x32"/><span class="socialText">Delicious</span></a></li>
-						<li><a href="http://www.last.fm/user/iamadtaylor" rel="me" title="Ad Taylors Last.fm page"><img src="img/hicons/lastfm_32.png" width="32" height="32" alt="Lastfm 32"/><span class="socialText">Last.fm</span></a></li>
+						<li><a href="https://twitter.com/iamadtaylor" rel="me" title="Ad Taylors twitter page"><img src="images/hicons/twitter_32.png" width="32" height="32" alt="Twitter 32"/><span class="socialText">Twitter</span></a></li>
+						<li><a href="http://www.vimeo.com/adtaylor" rel="me" title="Ad Taylors vimeo page"><img src="images/hicons/vimeo_32.png" width="32" height="32" alt="Vimeo 32"/><span class="socialText">Vimeo</span></a></li>
+						<li><a href="http://www.flickr.com/photos/adhoc01/" rel="me" title="Ad Taylors Flickr page"><img src="images/hicons/flickr_32.png" width="32" height="32" alt="Flickr 32"/><span class="socialText">Flickr</span></a></li>
+						<li><a href="http://delicious.com/iamadtaylor" rel="me" title="Ad Taylors Delicious page"><img src="images/hicons/delicious_32x32.png" width="32" height="32" alt="Delicious 32x32"/><span class="socialText">Delicious</span></a></li>
+						<li><a href="http://www.last.fm/user/iamadtaylor" rel="me" title="Ad Taylors Last.fm page"><img src="images/hicons/lastfm_32.png" width="32" height="32" alt="Lastfm 32"/><span class="socialText">Last.fm</span></a></li>
 					</ul>
 				</div>
 				<div id="flickr">
 					<h2>Flickr</h2>
-					<!-- <img src="img/tempFlickr/flickr_1.jpg" alt="Flickr Description" />
-									<img src="img/tempFlickr/flickr_2.jpg" alt="Flickr Description" />
+					<!-- <img src="images/tempFlickr/flickr_1.jpg" alt="Flickr Description" />
+									<img src="images/tempFlickr/flickr_2.jpg" alt="Flickr Description" />
 									 -->
-					<img src="img/tempFlickr/flickr_3.jpg" alt="Flickr Description" />
-					<img src="img/tempFlickr/flickr_4.jpg" alt="Flickr Description" />
+					<img src="images/tempFlickr/flickr_3.jpg" alt="Flickr Description" />
+					<img src="images/tempFlickr/flickr_4.jpg" alt="Flickr Description" />
 					
 				</div>
 					

@@ -3,8 +3,8 @@ body {
 /*	background-image: none;*/
 }
 .home {
-/*	background: #f8f8f8 url(../img/hold/random.jpg) no-repeat bottom right;*/
-	background: #e4e8e4 url(../img/bg/adamTaylorBackgroundVH.jpg) no-repeat bottom right;
+/*	background: #f8f8f8 url(../images/hold/random.jpg) no-repeat bottom right;*/
+	background: #e4e8e4 url(../images/bg/adamTaylorBackgroundVH.jpg) no-repeat bottom right;
 	
 }
 
@@ -35,7 +35,7 @@ body {
 		
 		overflow : hidden;
 		
-		background: rgba(20, 130, 230, 0.2) url(../img/mask.png) repeat top left;
+		background: rgba(20, 130, 230, 0.2) url(../images/mask.png) repeat top left;
 		margin-right : 0px;
 		margin-bottom : 32px;
 		padding: 10px;
